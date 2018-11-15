@@ -1,3 +1,13 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [CustomAppointmentSourceObject.cs](./CS/CustomAppointmentFlyoutExample/CustomAppointmentSourceObject.cs) (VB: [CustomAppointmentSourceObject.vb](./VB/CustomAppointmentFlyoutExample/CustomAppointmentSourceObject.vb))
+* [CustomResourceSourceObject.cs](./CS/CustomAppointmentFlyoutExample/CustomResourceSourceObject.cs) (VB: [CustomResourceSourceObject.vb](./VB/CustomAppointmentFlyoutExample/CustomResourceSourceObject.vb))
+* [DataHelper.cs](./CS/CustomAppointmentFlyoutExample/DataHelper.cs) (VB: [DataHelper.vb](./VB/CustomAppointmentFlyoutExample/DataHelper.vb))
+* [Form1.cs](./CS/CustomAppointmentFlyoutExample/Form1.cs) (VB: [Form1.vb](./VB/CustomAppointmentFlyoutExample/Form1.vb))
+* [MyFlyout.cs](./CS/CustomAppointmentFlyoutExample/MyFlyout.cs) (VB: [MyFlyout.vb](./VB/CustomAppointmentFlyoutExample/MyFlyout.vb))
+* [Program.cs](./CS/CustomAppointmentFlyoutExample/Program.cs) (VB: [Program.vb](./VB/CustomAppointmentFlyoutExample/Program.vb))
+<!-- default file list end -->
 # How to customize the appointment flyout
 
 
