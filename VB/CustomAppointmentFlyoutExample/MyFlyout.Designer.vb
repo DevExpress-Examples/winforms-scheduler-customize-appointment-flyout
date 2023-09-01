@@ -1,5 +1,7 @@
-﻿Namespace CustomAppointmentFlyoutExample
-    Partial Public Class MyFlyout
+Namespace CustomAppointmentFlyoutExample
+
+    Partial Class MyFlyout
+
         ''' <summary> 
         ''' Required designer variable.
         ''' </summary>
@@ -10,14 +12,14 @@
         ''' </summary>
         ''' <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         Protected Overrides Sub Dispose(ByVal disposing As Boolean)
-            If disposing AndAlso (components IsNot Nothing) Then
-                components.Dispose()
+            If disposing AndAlso (Me.components IsNot Nothing) Then
+                Me.components.Dispose()
             End If
+
             MyBase.Dispose(disposing)
         End Sub
 
-        #Region "Component Designer generated code"
-
+#Region "Component Designer generated code"
         ''' <summary> 
         ''' Required method for Designer support - do not modify 
         ''' the contents of this method with the code editor.
@@ -32,13 +34,13 @@
             Me.layoutControlItem2 = New DevExpress.XtraLayout.LayoutControlItem()
             Me.layoutControlItem3 = New DevExpress.XtraLayout.LayoutControlItem()
             Me.emptySpaceItem1 = New DevExpress.XtraLayout.EmptySpaceItem()
-            CType(Me.layoutControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.layoutControl1), System.ComponentModel.ISupportInitialize).BeginInit()
             Me.layoutControl1.SuspendLayout()
-            CType(Me.layoutControlGroup1, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.layoutControlItem1, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.layoutControlItem2, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.layoutControlItem3, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.emptySpaceItem1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.layoutControlGroup1), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.layoutControlItem1), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.layoutControlItem2), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.layoutControlItem3), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.emptySpaceItem1), System.ComponentModel.ISupportInitialize).BeginInit()
             Me.SuspendLayout()
             ' 
             ' layoutControl1
@@ -88,9 +90,9 @@
             ' 
             ' layoutControlGroup1
             ' 
-            Me.layoutControlGroup1.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True
+            Me.layoutControlGroup1.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.[True]
             Me.layoutControlGroup1.GroupBordersVisible = False
-            Me.layoutControlGroup1.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() { Me.layoutControlItem1, Me.layoutControlItem2, Me.layoutControlItem3})
+            Me.layoutControlGroup1.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.layoutControlItem1, Me.layoutControlItem2, Me.layoutControlItem3})
             Me.layoutControlGroup1.Name = "Root"
             Me.layoutControlGroup1.Size = New System.Drawing.Size(87, 145)
             Me.layoutControlGroup1.TextVisible = False
@@ -138,28 +140,34 @@
             Me.Controls.Add(Me.layoutControl1)
             Me.Name = "MyFlyout"
             Me.Size = New System.Drawing.Size(166, 145)
-            CType(Me.layoutControl1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.layoutControl1), System.ComponentModel.ISupportInitialize).EndInit()
             Me.layoutControl1.ResumeLayout(False)
-            CType(Me.layoutControlGroup1, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.layoutControlItem1, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.layoutControlItem2, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.layoutControlItem3, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.emptySpaceItem1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.layoutControlGroup1), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.layoutControlItem1), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.layoutControlItem2), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.layoutControlItem3), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.emptySpaceItem1), System.ComponentModel.ISupportInitialize).EndInit()
             Me.ResumeLayout(False)
             Me.PerformLayout()
-
         End Sub
 
-        #End Region
-
+#End Region
         Private layoutControl1 As DevExpress.XtraLayout.LayoutControl
+
         Private layoutControlGroup1 As DevExpress.XtraLayout.LayoutControlGroup
+
         Private emptySpaceItem1 As DevExpress.XtraLayout.EmptySpaceItem
+
         Private labelControl1 As DevExpress.XtraEditors.LabelControl
+
         Private layoutControlItem1 As DevExpress.XtraLayout.LayoutControlItem
+
         Private labelControl3 As DevExpress.XtraEditors.LabelControl
+
         Private labelControl2 As DevExpress.XtraEditors.LabelControl
+
         Private layoutControlItem2 As DevExpress.XtraLayout.LayoutControlItem
+
         Private layoutControlItem3 As DevExpress.XtraLayout.LayoutControlItem
     End Class
 End Namespace
